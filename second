@@ -19,7 +19,8 @@ pipeline
 						
 						
 		             }
-					 
+			     
+			}		 
 					 
 				stage ('test')
 
@@ -36,7 +37,7 @@ pipeline
 									
 							   
 						}	   
-				}			   
+							   
 		}				 
 	}	   
 
