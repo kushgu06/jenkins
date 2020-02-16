@@ -6,7 +6,7 @@ pipeline
 	    stages
 		  {
 		  
-		      stage ('clone')
+		      stage ('print clone')
 			  
 			    {
 				
@@ -15,7 +15,7 @@ pipeline
 				   
 				     {
 					    
-						sh 'clone'
+						sh 'echo clone'
 						
 						
 		             }
@@ -30,7 +30,7 @@ pipeline
 						   
 						       {
 							   
-							        sh 'test'
+							        sh 'echo test'
 									
 									}
 									
